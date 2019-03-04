@@ -8,5 +8,8 @@ public class Main {
         System.out.println('\n');
         Square sq = new Square('@', '#', 5);
         System.out.println(sq.toString());
+        System.out.println('\n');
+        Triangle tr = new Triangle('#', 10);
+        System.out.println(tr.toString());
     }
 }
