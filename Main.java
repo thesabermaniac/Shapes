@@ -11,5 +11,9 @@ public class Main {
         System.out.println('\n');
         Triangle tr = new Triangle('#', 10);
         System.out.println(tr.toString());
+        System.out.println('\n');
+        Hexagon hex = new Hexagon('@', 10);
+        System.out.println(hex.toString());
+        System.out.println('\n');
     }
 }
